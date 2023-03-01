@@ -1,0 +1,33 @@
+{
+    "formacion":[{
+    "titulo":"Tecnico Superior en Programacion",
+    "institucion":"UTN Mendoza",
+    "fechaIngreso":"2008-02-01",
+    "fechaSalida":"2010-06-20"
+},
+{
+    "titulo":"Tecnico en Marketing digital",
+    "institucion":"ISSTEC Mendoza",
+    "fechaIngreso":"2016-04-03",
+    "fechaSalida":"2019-10-10"
+},
+{
+    "titulo":"Tecnico Electronico",
+    "institucion":"Escuela Tecnic N°5",
+    "fechaIngreso":"2019-11-02",
+    "fechaSalida":"2021-04-12"
+},
+{
+    "titulo":"Ingeniero en Sistemas",
+    "institucion":"UTN Mendoza",
+    "fechaIngreso":"2021-02-01",
+    "fechaSalida":"2022-03-21"
+},
+{
+    "titulo":"Ingeniero Electronica",
+    "institucion":"UNMDP",
+    "fechaIngreso":"2012-09-01",
+    "fechaSalida":"2016-01-20"
+}
+    ]
+}

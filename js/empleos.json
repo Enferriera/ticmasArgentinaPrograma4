@@ -1,0 +1,33 @@
+{
+    "empleos":[{
+    "roll":"Desarrollador Front-End",
+    "empresa":"Google",
+    "fechaIngreso":"2008-02-01",
+    "fechaSalida":"2012-06-20"
+},
+{
+    "roll":"Desarrollador Back-End",
+    "empresa":"Amazon",
+    "fechaIngreso":"2016-04-03",
+    "fechaSalida":"2019-10-10"
+},
+{
+    "roll":"Desarrollador Full Stack",
+    "empresa":"Telefonica",
+    "fechaIngreso":"2019-11-02",
+    "fechaSalida":"2021-04-12"
+},
+{
+    "roll":"Analista Big Data",
+    "empresa":"Mercado Libre",
+    "fechaIngreso":"2021-02-01",
+    "fechaSalida":"2022-03-21"
+},
+{
+    "roll":"Responsable seguridad Digital",
+    "empresa":"Call center",
+    "fechaIngreso":"2012-09-01",
+    "fechaSalida":"2016-01-20"
+}
+    ]
+}

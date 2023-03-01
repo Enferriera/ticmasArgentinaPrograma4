@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+    <link href="css/estilo_argentinaPrograma.css" rel="stylesheet"
+      type="text/css">
+    <link href="css/estilo1_argentinaPrograma.css" rel="stylesheet"
+      type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>TICMAS CV</title>
+  </head>
+  <body>
+
+    <header class="bg-dark px-3 d-flex  flex-column flex-sm-row justify-content-center align-items-center justify-content-sm-between align-items-sm-center ">
+        
+      <div class=" col-sm-8 col-12 height-50"><h1 id="nombre_header" class="display-5 text-center "></h1></div> 
+     
+          <div id="iconos" class="col-sm-4 col-12 d-flex justify-content-sm-end justify-content-center gap-3 ">
+            <a id="iconoTwitter" target="_blank" href="" class="animate__animated
+              animate__slideInLeft">
+              <svg class="img-fluid iconos" id="twitter-logo" height="24"
+                data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0
+                400 400">
+                <rect width="400" height="400" fill="none"/>
+                  <path
+                    d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23"
+                    fill="#00acee"/>
+                  </svg>
+                </a>
+                <a id="iconoFacebook" target="_blank" href="" class=" animate__animated
+                  animate__slideInDown">
+                  <img class="img-fluid iconos" id="facebook-logo"
+                    src="imagenes/f_logo_RGB-Blue_58.png" />
+                </a>
+                <a id="iconoInstagram" target="_blank" href="">
+                  <img class="img-fluid iconos animate__animated 
+                    animate__slideInRight" id="instagram-logo"
+                    src="imagenes/Instagram_Glyph_Gradient_RGB.png"/>
+                </a>
+
+              </div>
+          
+        </header>
+
+
+
+
+        <main id="cuerpo" class="container-fluid">
+
+          <article class="row">
+
+            <div class="col-12 justify-content-center d-flex radio">
+              <div class="card " style="width: 100%; height:40%">
+                <img class="card-img-top fondo"
+                  src="https://random.imagecdn.app/500/150" alt="foto de fondo
+                  de perfil">
+                <div class="card-body  ">
+                  <img id="img-perfil" class="foto_perfil"/>
+
+                  <h5 id="nombre_perf" class="card-title display-5 fw-normal"></h5>
+                  <p id="puesto_actual" class="fw-bold"></p>
+
+                  <p id="localidad" class="fw-bold"></p>
+                  <button type="button" class="btn btn-primary "
+                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Informacion de contacto
+                  </button>
+
+                </div>
+              </div>
+            </div>
+            <div class="row-lg col-lg-12 col-md-12">
+              <div class=" d-flex ">
+                <div class="conteiner borde py-2 " style="width: 100%; ">
+
+                  <h5 class="display-5 fw-normal mb-3 mx-3 ">Formacion</h5>
+                  <ul class="list-group list-group-flush fw-300 rounded
+                    align-content-center flex-wrap" id="listaDeFormacion">
+
+                  </ul>
+
+                </div>
+              </div>
+
+
+              <div class=" d-flex ">
+                <div class="conteiner borde py-2 " style="width: 100%; ">
+
+                  <h5 class="display-5 fw-normal mb-3 mx-3">Experiencia
+                    Laboral</h5>
+                  <ul class="list-group list-group-flush fw-300 rounded
+                    align-content-center flex-wrap" id="listaDeEmpleo">
+
+                  </ul>
+                </div>
+              </div>
+
+              <div class=" d-flex ">
+                <div class="conteiner borde d-flex py-1 px-2 me-2 flex-column"
+                  style="width: 100%;">
+                  <h5 class="display-5 fw-normal mb-5 text-break 
+                    mx-2 ">Tecnologias trabajadas</h5>
+                  <ul class="list-group list-group-flush fw-300 rounded
+                    align-content-center flex-wrap" id="listaTecnologias">
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="modal fade " id="exampleModal" tabindex="-1"
+              aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog ">
+                <div class="modal-content ">
+                  <div class="modal-header " id="tituloModal">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Datos
+                      de contacto</h1>
+                    <button type="button" class="btn-close"
+                      data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ms-5 ">
+                    <ul class="list-group list-group-flush align-content-center
+                      flex-wrap " id="listaInfoContacto">
+
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                      data-bs-dismiss="modal">Close</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+
+
+
+        </main>
+
+
+        <footer><h2 id="nombre_perf_footer" class="card-title display-6
+            justify-content-center"></h2></footer>
+
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+        <script
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="./js/funcion.js"></script>
+
+      </body>
+    </html>
